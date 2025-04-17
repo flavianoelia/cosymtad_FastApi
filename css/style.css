@@ -1,0 +1,240 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+/*header section*/
+
+.header_top {
+  background-color: #000000;
+   
+}
+
+.a{
+  background-color: #ffffff;
+}
+img {
+  width: 300px; /* Tamaño para pantallas grandes */
+  height: auto;
+}
+
+/* Ajuste para pantallas más pequeñas */
+@media (max-width: 600px) {
+  img {
+      width: 250px; /* Ajusta el tamaño según lo necesites */
+  }
+}
+
+
+a{
+  color: #a59f9f;
+}
+
+
+/*end header section*/
+
+/* comienzo de la encuesta*/
+.contact_section {
+  position: relative;
+}
+
+
+
+/* seccion de informacion*/
+.info_section {
+  background-color: #1c1c1c; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.info_top .info_logo img {
+  width: 150px; /* Ajusta el tamaño del logo */
+  margin-bottom: 10px;
+}
+
+.info_bottom {
+  padding-top: 20px;
+}
+
+.info_contact a {
+  display: flex;
+  align-items: center;
+  color: #cccccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.info_contact a i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.info_contact a:hover {
+  color: #ffffff; /* Cambia a blanco al pasar el cursor */
+}
+
+.social_box a {
+  color: #cccccc;
+  font-size: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.social_box a:hover {
+  color: #ffffff; /* Cambia a blanco al pasar el cursor */
+}
+
+
+
+
+.info_section .info_contact a i {
+  margin-right: 5px;
+  width: 25px;
+  color: yellow;
+}
+
+
+
+.info_section .social_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  
+}
+
+.info_section .social_box a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(143, 143, 133);
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* footer section*/
+.info_section{
+  background-color: #000000
+}
+.footer_section {
+  position: relative;
+  background-color: #000000;
+  text-align: center;
+}
+
+
+.footer_section p {
+  color: #ffffff;
+  padding: 25px 0;
+  margin: 0;
+}
+
+.footer_section p a {
+  color: inherit;
+}
+/*# sourceMappingURL=style.css.map */
+
+/* Oculta la sección adicional por defecto */
+#extra-section{
+  display: none;
+}
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+  }
+
+  tr {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  td {
+      width: 100%;
+  }
+
+  .form-select {
+      width: 100%;
+      margin-top: 8px; /* Espacio entre la pregunta y el select */
+  }
+}
+
+#one-section{
+  display: none;
+}
+
+#no_corresponde{
+  display: none;
+}
+/* Estilo general para la tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Elimina el espacio entre los bordes */
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Estilo para los bordes de las celdas */
+
+.table, th, td {
+  border: 1px solid #ddd;
+}
+
+/* Estilo para las celdas de encabezado */
+th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo para las celdas */
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo para las filas pares */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para la selección */
+.form-select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo para el textarea */
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: vertical; /* Permite cambiar el tamaño verticalmente */
+}
+
+/* Estilo para la pregunta abierta */
+.pregunta p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
