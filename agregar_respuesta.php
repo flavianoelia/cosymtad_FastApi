@@ -10,7 +10,7 @@
 	$resp->set_encuesta($idEnc);
 	$resp->set_encuestado($encuestado);
 	$resp->add();
-	#$resp->enviarRespuestaAPIDesdeObjeto($resp);	
+		
 	unset($resp);
 	
 	$asistencia = $_POST["asistencia"];
@@ -20,7 +20,7 @@
 	$resp->set_encuesta($idEnc);
 	$resp->set_encuestado($encuestado);
 	$resp->add();
-	#$resp->enviarRespuestaAPIDesdeObjeto($resp);	
+		
 	unset($resp);
 	
 	$docente_comision = $_POST["docente-comision"];
@@ -30,7 +30,7 @@
 	$resp->set_encuesta($idEnc);
 	$resp->set_encuestado($encuestado);
 	$resp->add();
-	#$resp->enviarRespuestaAPIDesdeObjeto($resp);	
+		
 	unset($resp);
 	
 	if (isset($_POST['teoricas'])) {
@@ -41,7 +41,7 @@
 		$resp->set_encuesta($idEnc);
 		$resp->set_encuestado($encuestado);
 		$resp->add();
-		#$resp->enviarRespuestaAPIDesdeObjeto($resp);	
+			
 		unset($resp);
 	}
 	
@@ -53,8 +53,7 @@
 		$resp->set_encuesta($idEnc);
 		$resp->set_encuestado($encuestado);
 		$resp->add();
-		#$resp->enviarRespuestaAPIDesdeObjeto($resp);	
-
+			
 		unset($resp);
 	}
 	
